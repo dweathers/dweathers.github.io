@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="me.png" width="50%">
-</p>
+![me, being ignored my dog Coco, watching Evangelion](me.png)
 
-**Menu:** **Main** | [Tutoring](/tutoring)
+**Menu:** **Main** | [Tutoring](TUTORING.md)
 
 I am a lecturer of mathematics and statistics at [Coastal Carolina University](https://www.coastal.edu/). My interests include 
 - category theory,
