@@ -1,4 +1,4 @@
-![me, being ignored my dog Coco, watching Evangelion](me.png){:width="50%"}
+![me, being ignored my dog Coco, watching Evangelion](me.png)
 
 **Menu:** **Main** | [Tutoring](TUTORING.md)
 
