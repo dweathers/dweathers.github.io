@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="me.png" width="50%">
+</p>
+
 I am a lecturer of mathematics and statistics at [Coastal Carolina University](https://www.coastal.edu/). My interests include 
 - category theory,
 - probability and statistics,
