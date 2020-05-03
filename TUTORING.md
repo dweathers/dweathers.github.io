@@ -1,6 +1,6 @@
 layout: page
 title: "Tutoring"
-permalink: /tutoring/
+permalink: http://dweathers.github.io/tutoring/
 
 **Menu:** [Main](/) | **Tutoring**
 
