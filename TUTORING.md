@@ -1,7 +1,3 @@
-layout: page
-title: "Tutoring"
-permalink: http://dweathers.github.io/tutoring/
-
 **Menu:** [Main](/) | **Tutoring**
 
 ### Tutoring
