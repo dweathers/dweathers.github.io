@@ -1,3 +1,7 @@
+layout: page
+title: "Tutoring"
+permalink: /tutoring
+
 ### Tutoring
 
 During the summer of 2020 (starting May 13) I will take on some clients for private web tutoring.
