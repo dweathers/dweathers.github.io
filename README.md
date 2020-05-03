@@ -9,5 +9,3 @@ In order, those things can be loosely described as
 - randomness,
 - counting, 
 - and understanding the way mathematics is done and learned by the *humans* who do and learn mathematics.
-
-I recently discovered the [Lean theorem prover](https://leanprover.github.io/) which led me back to GitHub after a few years away. (I was never any good at it.) I also needed a small website. So, here is my GitHub page.
