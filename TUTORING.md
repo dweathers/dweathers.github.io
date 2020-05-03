@@ -12,4 +12,6 @@ During the summer of 2020 (starting May 13) I will take on some clients for priv
 
 My tutoring style is to lead the student through a problem until they come up with the correct answer on their own. The ideal student will be self-motivated and interested to know the "why" of it all.
 
+Because the obvious conflict of interest I will not tutor students at Coastal Carolina.
+
 If you are interested please e-mail `wdweathers` at `gmail` dot `com`.
