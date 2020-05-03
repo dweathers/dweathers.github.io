@@ -1,6 +1,6 @@
 layout: page
 title: "Tutoring"
-permalink: /tutoring
+permalink: /tutoring/
 
 **Menu:** [Main](/) | **Tutoring**
 
