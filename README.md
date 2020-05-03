@@ -2,7 +2,7 @@
   <img src="me.png" width="50%">
 </p>
 
-**Menu:** Main | [Tutoring](/tutoring)
+**Menu:** **Main** | [Tutoring](/tutoring)
 
 I am a lecturer of mathematics and statistics at [Coastal Carolina University](https://www.coastal.edu/). My interests include 
 - category theory,
