@@ -143,6 +143,8 @@ $$ X \cap Y = \{\, x \, | \, x \in X \text{ and } x \in Y \}.$$
 
 A useful way to visualize combinations of sets is with a Venn diagram. The Venn diagrams for union and intersection are shown below.
 
+PICTURE OF UNION AND INTERSECTION
+
 *Example.* Let $X = \{1,2,3,4\}$ and $Y=\{2,4,7,9\}$. Their union is 
 $$ X \cup Y = \{1,2,3,4,7,9\}$$ and their intersection is $$X \cap Y = \{2,4\}.$$ Notice that we do not repeat elements in a set. An element is either in the set or it isn't. (A generalization, the multiset, will be developed in Chapter 11.) Therefore, $|X \cup Y|$ (recall, the number of elements in the union) won't just be $|X|+|Y|$.
 
@@ -161,9 +163,7 @@ Often when working with sets there is a **universal** or ambient set, sometimes 
 
 **Definition 1.3.5.** Let $X$ be a set contained in some universal set $\Omega$. The **complement** of $X$ (relative to $\Omega$), denoted $\overline{X}$, is all the elements not in $X$. In other words, $\overline{X}=\Omega-X$.
 
-![Two sets X and Y are pictured as overlapping circles. The region within X, excluding the portion that is also part of Y, is shaded in pink. This is a picture of the difference X minus Y.](https://dweathers.github.io/174/images/1-3-difference.png)
-
-![A set X, pictured as a circle, is shown contained in its universal set, pictured as a rectangle. The region between the rectangle and circle is shaded in blue, representing the complement of X.](https://dweathers.github.io/174/images/1-3-complement.png)
+PICTURES OF DIFFERENCES HERE
 
 *Example.* Suppose $X=\{a,b,c\}$ is contained in the universal set $\Omega=\{a,b,c,d,e\}$. Then $\overline{X}=\{d,e\}$.
 
@@ -171,7 +171,7 @@ Often when working with sets there is a **universal** or ambient set, sometimes 
 
 As the name implies, the ordering of the entries in an ordered pair matters. Therefore, we will adopt the convention that unordered structures are enclosed in $\{$ curly braces $\}$ and ordered structures are enclosed in $($ parentheses $)$. The immediate consequence to this observation is that $X \times Y$ is different from $Y \times X$.
 
-[PICTURE OF CARTESIAN PRODUCT]
+PICTURE OF CARTESIAN PRODUCT
 
 *Examples.* You are likely familiar with $\mathbf{R}^2=\mathbf{R}\times\mathbf{R}$, the Cartesian plane from algebra and calculus. The elements of this (infinite) set are ordered pairs $(x,y)$ where both $x$ and $y$ are real numbers.
 
