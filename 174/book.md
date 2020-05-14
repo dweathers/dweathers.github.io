@@ -148,10 +148,34 @@ A useful way to visualize combinations of sets is with a Venn diagram. The Venn 
 *Example.* Let $X = \{1,2,3,4\}$ and $Y=\{2,4,7,9\}$. Their union is 
 $$ X \cup Y = \{1,2,3,4,7,9\}$$ and their intersection is $$X \cap Y = \{2,4\}.$$ Notice that we do not repeat elements in a set. An element is either in the set or it isn't. (A generalization, the multiset, will be developed in Chapter 11.) Therefore, $|X \cup Y|$ (recall, the number of elements in the union) won't just be $|X|+|Y|$.
 
-**Theorem 1.3.3.** If $X$ and $Y$ are finite, then $$|X \cup Y| = |X|+|Y|-|X\cap Y|.$$
+**Theorem 1.3.3.** If $X$ and $Y$ are finite sets, then $$|X \cup Y| = |X|+|Y|-|X\cap Y|.$$
 
 *Proof.* If an element is only in $X$, it will be counted by $|X|$. If an element is only in $Y$, it will be counted by $|Y|$. Therefore any elements in $X \cap Y$ will be counted twice. There are exactly $|X \cap Y|$ of these elements, so subtracting that amount gives $|X \cup Y|$. $\square$
 
+**Definition 1.3.4.** Let $X$ and $Y$ be sets. The **difference** $X-Y$ is the set of all elements in $X$ but not $Y$; i.e. $$X-Y=\{ \, x \, | \, x \in X \text{ and } x \not\in Y\}.$$
 
+*Example.* Like before, let $X = \{1,2,3,4\}$ and $Y=\{2,4,7,9\}$. Then $X-Y=\{1,3\}$. Notice that $Y-X=\{7,9\}$; just like with numbers, taking a diference is not **commutative**. (That is, the order matters.)
 
+Often when working with sets there is a **universal** or ambient set, sometimes denoted $\Omega$, that all of our sets are assumed to be subsets of. This set is typically inferred from context. 
+* In calculus, this set might be $\mathbf{R}$.
+* If my set is "students taking MATH 174," my universal set might be the set of all students at Coastal Carolina.
+* In probability theory, the sets are events (e.g. "the roll is odd") and $\Omega$ is the sample space (e.g. all possible rolls of the die). 
 
+**Definition 1.3.5.** Let $X$ be a set contained in some universal set $\Omega$. The **complement** of $X$ (relative to $\Omega$), denoted $\overline{X}$, is all the elements not in $X$. In other words, $\overline{X}=\Omega-X$.
+
+[PICTURES OF DIFFERENCE AND COMPLEMENT]
+
+**Definition 1.3.6.** Let $X$ and $Y$ be sets. Their **Cartesian product** (in this book, just "product") is the set $$X\times Y = \{(x,y)\,|\, x \in X \text{ and } y \in Y\}.$$ The elements of the product are called **ordered pairs.**
+
+As the name implies, the ordering of the entries in an ordered pair matters. Therefore, we will adopt the convention that unordered structures are enclosed in $\{$ curly braces $\}$ and ordered structures are enclosed in $($ parentheses $)$. The immediate consequence to this observation is that $X \times Y$ is different from $Y \times X$.
+
+[PICTURE OF CARTESIAN PRODUCT]
+
+*Examples.* You are likely familiar with $\mathbf{R}^2=\mathbf{R}\times\mathbf{R}$, the Cartesian plane from algebra and calculus. The elements of this (infinite) set are ordered pairs $(x,y)$ where both $x$ and $y$ are real numbers.
+
+To make a discrete example, put $X=\{a,b,c\}$ and $Y=\{1,2\}$. Then
+$$ X \times Y = \{(a, 1), (a,2), (b,1), (b,2), (c,1), (c,2)\}.$$  As an exercise, calculate $Y \times X$ yourself. The pair $(1,a)$ is an element.
+
+**Theorem 1.3.7.** If $X$ and $Y$ are finite sets, then $|X \times Y| = |X||Y|$.
+
+*Proof.* The elements of $X\times Y$ may be tabulated into a rectangle, where each row corresponds to an element of $X$ and each column corresponds to an element of $Y$. There are $|X|$ rows and $|Y|$ columns and therefore $|X||Y|$ elements in the table. $\square$
