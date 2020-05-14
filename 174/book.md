@@ -143,8 +143,6 @@ $$ X \cap Y = \{\, x \, | \, x \in X \text{ and } x \in Y \}.$$
 
 A useful way to visualize combinations of sets is with a Venn diagram. The Venn diagrams for union and intersection are shown below.
 
-[PICTURES: UNION AND INTERSECTION]
-
 *Example.* Let $X = \{1,2,3,4\}$ and $Y=\{2,4,7,9\}$. Their union is 
 $$ X \cup Y = \{1,2,3,4,7,9\}$$ and their intersection is $$X \cap Y = \{2,4\}.$$ Notice that we do not repeat elements in a set. An element is either in the set or it isn't. (A generalization, the multiset, will be developed in Chapter 11.) Therefore, $|X \cup Y|$ (recall, the number of elements in the union) won't just be $|X|+|Y|$.
 
@@ -163,7 +161,11 @@ Often when working with sets there is a **universal** or ambient set, sometimes 
 
 **Definition 1.3.5.** Let $X$ be a set contained in some universal set $\Omega$. The **complement** of $X$ (relative to $\Omega$), denoted $\overline{X}$, is all the elements not in $X$. In other words, $\overline{X}=\Omega-X$.
 
-[PICTURES OF DIFFERENCE AND COMPLEMENT]
+![Two sets X and Y are pictured as overlapping circles. The region within X, excluding the portion that is also part of Y, is shaded in pink. This is a picture of the difference X minus Y.](https://dweathers.github.io/174/images/1-3-difference.png)
+
+![A set X, pictured as a circle, is shown contained in its universal set, pictured as a rectangle. The region between the rectangle and circle is shaded in blue, representing the complement of X.](https://dweathers.github.io/174/images/1-3-complement.png)
+
+*Example.* Suppose $X=\{a,b,c\}$ is contained in the universal set $\Omega=\{a,b,c,d,e\}$. Then $\overline{X}=\{d,e\}$.
 
 **Definition 1.3.6.** Let $X$ and $Y$ be sets. Their **Cartesian product** (in this book, just "product") is the set $$X\times Y = \{(x,y)\,|\, x \in X \text{ and } y \in Y\}.$$ The elements of the product are called **ordered pairs.**
 
@@ -179,3 +181,17 @@ $$ X \times Y = \{(a, 1), (a,2), (b,1), (b,2), (c,1), (c,2)\}.$$  As an exercise
 **Theorem 1.3.7.** If $X$ and $Y$ are finite sets, then $|X \times Y| = |X||Y|$.
 
 *Proof.* The elements of $X\times Y$ may be tabulated into a rectangle, where each row corresponds to an element of $X$ and each column corresponds to an element of $Y$. There are $|X|$ rows and $|Y|$ columns and therefore $|X||Y|$ elements in the table. $\square$
+
+### 1.4 Operations involving more than two sets
+
+*Note: While this section is cool, we will not make use of its content very often in this course. You may choose to skip this section for now and return to it after Chapter 8, when you are more comfortable with the material.*
+
+There is one last thing to say about sets (for now, anyway). There is no reason to limit ourselves to two sets in union, intersection, and product. If we have a family of $n$ sets $X_1, X_2, \ldots, X_n$, we may take $n$-ary unions, intersections, and products. 
+
+The $n$-ary union $$\bigcup_{i=1}^n X_i = X_1 \cup X_2 \cup \cdots \cup X_n$$ is the set of elements that are in at least one of the sets $X_i$.
+
+The $n$-ary intersection $$\bigcap_{i=1}^n X_i = X_1 \cap X_2 \cap \cdots \cap X_n$$ is the set of elements that are in all of the sets $X_i$.
+
+The $n$-ary product $$\prod_{i=1}^n X_i = X_1 \times X_2 \times \cdots \times X_n$$ is the set of ordered $n$-tuples $(x_1, x_2, \ldots, x_n)$, where the element $x_i$ is a member of the set $X_i$. Such an object may be instead considered as a finite sequence. We will discuss sequences in Chapter 6.
+
+Suppose instead the family $X_1, X_2, \ldots$ is infinite. We will, exactly once in this book, need to take an infinite union. The infinite union $$\bigcup_{i=1}^\infty X_i = X_1 \cup X_2 \cup \cdots $$ is the set of all elements that are in at least one of the $X_i$. (Notice that the definition hasn't changed -- just the number of sets!) Likewise the infinite intersection $$\bigcap_{i=1}^n X_i = X_1 \cap X_2 \cap \cdots $$ is the set of elements in all the $X_i$. An infinite product is better realized as an infinite sequence, which again is the subject of Chapter 6.
