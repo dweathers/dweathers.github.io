@@ -195,3 +195,121 @@ The $n$-ary intersection $$\bigcap_{i=1}^n X_i = X_1 \cap X_2 \cap \cdots \cap X
 The $n$-ary product $$\prod_{i=1}^n X_i = X_1 \times X_2 \times \cdots \times X_n$$ is the set of ordered $n$-tuples $(x_1, x_2, \ldots, x_n)$, where the element $x_i$ is a member of the set $X_i$. Such an object may be instead considered as a finite sequence. We will discuss sequences in Chapter 6.
 
 Suppose instead the family $X_1, X_2, \ldots$ is infinite. We will, exactly once in this book, need to take an infinite union. The infinite union $$\bigcup_{i=1}^\infty X_i = X_1 \cup X_2 \cup \cdots $$ is the set of all elements that are in at least one of the $X_i$. (Notice that the definition hasn't changed -- just the number of sets!) Likewise the infinite intersection $$\bigcap_{i=1}^n X_i = X_1 \cap X_2 \cap \cdots $$ is the set of elements in all the $X_i$. An infinite product is better realized as an infinite sequence, which again is the subject of Chapter 6.
+
+## 2. Propositional logic
+
+In mathematics, we spend a lot of time worried about whether a sentence is true or false. This is fine in the case of a simple sentence such as "The number $2$ is prime." (That sentence is true.) But there are much more complicated sentences lurking around, and whole constellations of sentences whose truth depends on one another. (An unsolved problem in mathematics is deciding whether the *Riemann hypothesis*, a statement about the prime numbers, is true. Most people believe it is, and many results in the literature are true given the hypothesis. The Riemann hypothesis is going to make or break a lot of research.)
+
+So, we are interested in tools that will allow us to judge whether complicated statements are true. Such models of truth are called logic.
+
+### 2.1 Statements and connectives
+
+**Definition 2.1.1.** A **statement** is a sentence that is either true or false. 
+
+*Examples.* "The number $2$ is prime" and "It is perfectly legal to jaywalk" are statements. Non-statements include questions ("Is it raining?"), commands ("Do your homework"), and opinions ("Mint chocolate chip ice cream is the superior flavor"). It is important to note, not necessarily for mathematical purposes, that *opinions* are statements of pure taste. Claims whose truth values exist but are unknown are *beliefs*.
+
+**Atomic** propositional statements of the type discussed in this chapter are flatly always true or false. You may think of them in the same way you think of constant functions in algebra. They are denoted with lowercase letters $p$, $q$, $r$, etc. If the only statements were atomic, logic would be boring. Fortunately, we can combine statements with connectives. In the next chapter, we will look at predicate statements whose truth values depend on an input. Likewise, these may be thought of as the non-constant functions.
+
+**Compound** statements arise from combining atomic statements with connectives. They are denoted using Greek letters like $\varphi$ ("phi"), $\psi$ ("psi"), and $\gamma$ ("gamma"). The truth of a **compound** statement depends on the connectives involved and the truth values of the constituent statements. A tool for determining the truth of a compound statement is called a **truth table**. 
+
+In a truth table for the compound statement $\varphi$, the left side of the table is the atomic statements involved in $\varphi$ and the right side of the table is $\varphi$ itself. Each row gives a possible combination of truth values for the atomic statements, and the corresponding truth value for $\varphi$. At this point, it is easier to start introducing connectives and seeing some truth tables.
+
+**Definition 2.1.2.** Let $p$ be a statement. Its **negation** is the statement $\neg p$, the statement that is true exactly when $p$ is false and vice-versa. 
+
+The statement $\neg p$ is typically read "not $p$" or "it is not the case that $p$ is true." If we have an English rendering of $p$, we try to write $\neg p$ in a natural-sounding way that also conveys its logical structure. 
+
+*Example.* Suppose $p$ represents the statement "It is raining." Then, $\neg p$ stands for "It is not raining."
+
+Below is the truth table for $\neg p$.
+
+|$p$|$\neg p$|
+|--|--|
+|$T$|$F$|
+|$F$|$T$|
+
+As you can see, on the left are columns corresponding to the atomic statements involved in $\neg p$ (just $p$), and each row is a possible combination of truth values for these statements. Here is a quick, useful theorem without proof:
+
+**Theorem 2.1.3.** If the compound statement $\varphi$ involves $n$ different atomic statements, then its truth table has $2^n$ rows.
+
+Look familiar? We will prove this theorem when we prove the related theorem about power sets later on.
+
+Negation is called a **unary** connective because it only involves one statement. Our remaining connectives are all **binary** connectives, as they combine two statements.
+
+**Definition 2.1.4.** Let $p$ and $q$ be statements. Their **conjunction** is the statement $p \wedge q$, which is true only when $p$ and $q$ are both true.
+
+The symbol in the conjunction is called a "wedge," and $p \wedge q$ is read "$p$ and $q$." This definition is meant to be analogous to our English understanding of the word "and." The statements $p$ and $q$ are called **conjuncts**.
+
+*Example.* Letting $p$ be "It is raining" and $q$ be "I brought an umbrella," the statement $p \wedge q$ is "It is raining and I brought an umbrella." The statement is true only if it is currently raining and the speaker brought an umbrella. If it is not raining, or if the speaker did not bring their umbrella, the conjunction is false.
+
+Here is the truth table for $p \wedge q$:
+
+|$p$|$q$|$p \wedge q$  |
+|--|--|--|
+| $T$ | $T$ | $T$|
+| $T$ | $F$ | $F$|
+| $F$ | $T$ | $F$|
+|$F$|$F$|$F$|
+
+Notice that this table is organized intentionally, not haphazardly. The rows are divided into halves, where $p$ is true in one half and then false in the other half. The rows where $p$ is true are further subdivided into half where $q$ is true and half where $q$ is false. If there were a third letter, we would subdivide the rows again, and so on. This method of organizing the truth table allows us to ensure we did not forget a row. Our leftmost atomic letter column will always be half true followed by half false, and the rightmost atomic letter column will always alternate between true and false.
+
+**Definition 2.1.5.** Let $p$ and $q$ be statements. Their **disjunction** is the statement $p \vee q$, which is true if at least one of $p$ or $q$ is true.
+
+The symbol in the conjunction is called a "vee" and $p \vee q$ is read "$p$ or $q$." This definition is meant to be analogous to our English understanding of the word "or." The statements $p$ and $q$ are called **disjuncts**. (Did you notice that I was able to copy and paste from an above paragraph? Conjunction and disjunction share a very similar structure.)
+
+*Example.* Letting $p$ be "It is raining" and $q$ be "I brought an umbrella," the statement $p \vee q$ is "It is raining or I brought an umbrella." This time, the speaker only needs to meet one of their conditions. They are telling the truth as long as it is raining or they brought an umbrella, or even if both statements are true.
+
+The truth table for $p \vee q$ follows.
+
+|$p$|$q$|$p \vee q$  |
+|--|--|--|
+| $T$ | $T$ | $T$|
+| $T$ | $F$ | $T$|
+| $F$ | $T$ | $T$|
+|$F$|$F$|$F$|
+
+Of great importance to computer science and electrical engineering, but not so much in mathematics (so it will not appear again in this book), is the exclusive disjunction (or "exclusive-or"). It is a modified disjunction where *exactly* one of the disjuncts must be true.
+
+**Definition 2.1.6.** If $p$ and $q$ are statements, their **exclusive disjunction** is the statement $p \oplus q$, which is true if and only if exactly one of $p$ and $q$ is true.
+
+The statement $p \oplus q$ is read "$p$ exclusive-or $q$." 
+
+*Example.* The statement "You can have the soup or the salad" is likely meant as an exclusive disjunction.
+
+In mathematics, disjunctions are generally considered inclusive unless stated otherwise. (An example for us all to follow!)
+
+Our next connective is probably the most important, as it conveys the idea of one statement implying another. As we discussed earlier in the chapter, mathematics is nothing but such statements. It is also the only connective that is not relatively easy to understand given its English interpretation. So we will begin with the truth table, and think carefully about each row.
+
+**Definition 2.1.7.** If $p$ and $q$ are statements, the **conditional statement** $p \to q$ is true if $p$ can never be true while $q$ is false.
+
+There are many ways to read $p \to q$, including "if $p$, then $q$," "$p$ implies $q$", and "$p$ is sufficient for $q$." The statement before the arrow is the **antecedent** and the following statement is the **consequent**. Here is the conditional's truth table.
+
+|$p$|$q$|$p \to q$  |
+|--|--|--|
+| $T$ | $T$ | $T$|
+| $T$ | $F$ | $F$|
+| $F$ | $T$ | $T$|
+|$F$|$F$|$T$|
+
+That $p \to q$ is true in the bottom two rows may surprise you. So, let's consider each row separately.
+
+*Example.* Let $p$ be "You clean your room" and $q$ be "I will pay you $10," so that $p\to q$ is "If you clean your room, then I will pay you $10."
+
+In the case that both $p$ and $q$ are true, the speaker has told the truth. You cleaned, and you were paid. All is well.
+
+In the case that $p$ is true but $q$ is false, the speaker has lied. You cleaned the room, but you did not earn your money.
+
+What if $p$ is false? Well, then the speaker did not lie. The speaker said that *if* you clean your room you will be paid. If the room isn't cleaned, then $p \to q$ cannot be falsified, no matter where $q$ is true or false.
+
+If that explanation is not sufficient for you, reread the definition of the conditional: $p \to q$ being true *means* that $p$ cannot be true without $q$. If you are unsatisfied by the English connection, then consider $p \to q$ to be a purely formal object whose definition is the above truth table.
+
+**Definition 2.1.8.** If $p$ and $q$ are statements, the **biconditional statement** $p \leftrightarrow q$ is true if $p$ and $q$ are both true, or both false.
+
+The statement $p \leftrightarrow q$ may be read as "$p$ if and only if $q$, "$p$ is necessary and sufficient for $q$," or "$p$ is equivalent to $q$." Here is the truth table.
+|$p$|$q$|$p \to q$  |
+|--|--|--|
+| $T$ | $T$ | $T$|
+| $T$ | $F$ | $F$|
+| $F$ | $T$ | $F$|
+|$F$|$F$|$T$|
+
+*Example.* Let $p$ be "You clean your room" and $q$ be "I will pay you $10," so that $p\leftrightarrow q$ is "I will give you $10 if and only if you clean your room." (The statements were reordered for readability. We will see later in the chapter that this is the same statement, but this wouldn't work for $p \to q$.) This time, the clean room and the $10 paycheck are in total correspondence; one doesn't happen without the other.
