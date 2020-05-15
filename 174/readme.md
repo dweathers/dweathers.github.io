@@ -4,7 +4,7 @@
 
 ### References to later chapters that need filling in:
 * Multisets (after def 1.3.2)
-* Sequences (end of chapter 1)
+* Fundamental counting (end of 1.3 and after 2.1.3)
 
 ### Include something like this acknowledgement. 
 
