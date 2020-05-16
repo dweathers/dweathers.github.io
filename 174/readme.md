@@ -3,6 +3,7 @@
 ## Notes to self about the book
 
 ### References to later chapters that need filling in:
+* Mention empty set proof in chapter 3
 * Multisets (after def 1.3.2)
 * Fundamental counting (end of 1.3 and after 2.1.3)
 
