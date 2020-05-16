@@ -313,3 +313,43 @@ The statement $p \leftrightarrow q$ may be read as "$p$ if and only if $q$, "$p$
 |$F$|$F$|$T$|
 
 *Example.* Let $p$ be "You clean your room" and $q$ be "I will pay you $10," so that $p\leftrightarrow q$ is "I will give you $10 if and only if you clean your room." (The statements were reordered for readability. We will see later in the chapter that this is the same statement, but this wouldn't work for $p \to q$.) This time, the clean room and the $10 paycheck are in total correspondence; one doesn't happen without the other.
+
+### 2.2 Connecting connectives
+
+We are not required to use one connective at a time, of course. Most statements involve two or more connectives being combined at once. If $\varphi$ and $\psi$ are statements, then so are: $\neg \varphi$, $\varphi \wedge \psi$, $\varphi \vee \psi$, $\varphi \to \psi$, and $\varphi \leftrightarrow \psi$. This fact allows us to combine as many connectives and statements as we like.
+
+How should we read the statement $p \wedge q \to r$? Should it be read "$p$; also, if $q$ then $r$"? Or, "If $p$ and $q$, then $r$?" Just like with arithmetic, there are conventions defining which connective to apply first: negation, then conjunction/disjunction, then implication, then bi-implication. So, "If $p$ and $q$, then $r$" is correct. However, to eliminate confusion in this book we will always use parentheses to make our statements clear. Therefore, we would write this statement as $(p \wedge q) \to r$.
+
+Remember that a statement involving $n$ letters will have $2^n$ rows in its truth table. The column for the left-most statement letter should be true for half the rows then false for half the rows, and you should continue dividing the rows in half so that the right-most statement letter's column is alternating between true and false.
+
+Finally, it is a good idea to break a statement into small "chunks" and make a column for each "chunk" separately. Observe the following example.
+
+*Example.* Write down the truth table for the statement $(p \wedge q) \to (r \to \neg s)$. When is this statement false?
+
+Since the statement has $4$ letters, there will be $2^4=16$ rows to the truth table. Let's go through the first row very slowly, where all four atomic statements are true. Then $p \wedge q$ is true and $\neg s$ is false. Since $r$ is true and $\neg s$ is false, that means $r \to \neg s$ is false. Finally, because its antecedent is true and its consequent is false, the compound statement $(p \wedge q) \to (r \to \neg s)$ would be false.
+
+Here is the full truth table. Be sure you understand how each row is calculated.
+
+
+|$p$|$q$|$r$|$s$|$p \wedge q$  |$\neg s$|$r \to \neg s$|$(p \wedge q) \to (r \to \neg s)$
+|--|--|--|--|--|--|--|--|
+| $T$ | $T$ | $T$|$T$|$T$ |$F$ |$F$ |$F$ |
+| $T$ | $T$ | $T$|$F$|$T$ |$T$ |$T$ |$T$ |
+| $T$ | $T$ | $F$|$T$|$T$ |$F$ |$T$ |$T$ |
+| $T$ | $T$ | $F$|$F$|$T$ |$T$ |$T$ |$T$ |
+| $T$ | $F$ | $T$|$T$|$F$ |$F$ |$F$ |$T$ |
+| $T$ | $F$ | $T$|$F$|$F$ |$T$ |$T$ |$T$ |
+| $T$ | $F$ | $F$|$T$|$F$ |$F$ |$T$ |$T$ |
+| $T$ | $F$ | $F$|$F$|$F$ |$T$ |$T$ |$T$ |
+| $F$ | $T$ | $T$|$T$|$F$ |$F$ |$F$ |$T$ |
+| $F$ | $T$ | $T$|$F$|$F$ |$T$ |$T$ |$T$ |
+| $F$ | $T$ | $F$|$T$|$F$ |$F$ |$T$ |$T$ |
+| $F$ | $T$ | $F$|$F$|$F$ |$T$ |$T$ |$T$ |
+| $F$ | $F$ | $T$|$T$|$F$ |$F$ |$F$ |$T$ |
+| $F$ | $F$ | $T$|$F$|$F$ |$T$ |$T$ |$T$ |
+| $F$ | $F$ | $F$|$T$|$F$ |$F$ |$T$ |$T$ |
+| $F$ | $F$ | $F$|$F$|$F$ |$T$ |$T$ |$T$ |
+
+There are tricks to calculate truth tables more efficiently. However, it wouldn't do you any good to read them; they must come with practice.
+
+### 2.3 Inference and equivalence 
