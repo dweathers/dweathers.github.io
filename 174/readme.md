@@ -2,6 +2,10 @@
 
 ## Notes to self about the book
 
+### Every video description
+
+Meant to be watched before or after reading Chapter X of the open source textbook Elementary Discrete Mathematics (https://dweathers.github.io/174/book.html).
+
 ### References to later chapters that need filling in:
 * Mention empty set proof in chapter 3
 * Multisets (after def 1.3.2)
