@@ -1,5 +1,7 @@
-# MATH 174 syllabus
-## Summer I 2020
+# Introduction to discrete mathematics
+## Syllabus
+
+### Coastal Carolina University / Section 01 / Summer I 2020
 
 ### Contact information
 
