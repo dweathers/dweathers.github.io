@@ -16,7 +16,15 @@ This is a class about learning to communicate mathematically. The goal is that a
 
 We will learn this boldness in the context of discrete mathematics, which is frustratingly defined as "the study of discrete structures." A discrete structure is something whose elements enjoy a clear separation from each other; consider that the numbers 1 and 2 are clearly distinct. As  a counterexample consider that there is not such a clear distinction between the numbers 1, 1.1, 1.01, 1.001, and so on. Examples of discrete structures include sets, families of statements with logical connectives, sequences, Boolean matrices, graphs, and partial orders. Oh, and you're also going to learn how to count *real good.*
 
-This course is a challenging one. Have faith in your own abilities, and reach out to me and your classmates when you need help!
+This course is a challenging one. Work hard, have faith in your own abilities, and reach out to me and your classmates when you need help!
+
+### Course materials
+
+You will be provided with a [free web textbook](http://dweathers.github.io/174/index.html) and a series of videos (linked from the book). You are intended to use these yourself, and use the office hours to ask questions about what you have learned.
+
+The videos and the book are meant to compliment one another. The book is much more thorough, and the videos are meant to provide short demonstrations and examples. Some students may prefer to watch the videos before diving into the book's motivation and explanations; other students may prefer to read the text and then watch an example in action. Try both orders to see which works best for you, but *use both resources*.
+
+We will use Microsoft Teams to communicate with one another. The link to join has been e-mailed to you. If you are not happy with your name in the Coastal Carolina system, you are welcome to join with another e-mail address.
 
 ### What we can expect from each other
 
@@ -30,9 +38,9 @@ This is an inclusive classroom where students of all races, ethnicities, genders
 
 Access to our community workspace is a privilege. Students who harass their classmates may lose that privilege, and if an offense is particularly egregious there will not be a warning.
 
-**Academic integrity:** Coastal Carolina University is an academic community that expects the highest standards of honesty, integrity and personal responsibility. Members of this community are accountable for their actions and are committed to creating an atmosphere of mutual respect and trust. For more, see https://www.coastal.edu/aic.
+**Academic integrity:** Coastal Carolina University is an academic community that expects the highest standards of honesty, integrity and personal responsibility. Members of this community are accountable for their actions and are committed to creating an atmosphere of mutual respect and trust. For more, see [https://www.coastal.edu/aic].
 
-**Accomodations:** Coastal Carolina University is committed to equitable access and inclusion of individuals with disabilities in accordance with the Americans with Disabilities Act and Section 504 of the Rehabilitation Act. Individuals seeking reasonable accommodations should contact Accessibility \& Disability Services (843-349-2503 or \texttt{https://www.coastal.edu/disabilityservices/}).
+**Accomodations:** Coastal Carolina University is committed to equitable access and inclusion of individuals with disabilities in accordance with the Americans with Disabilities Act and Section 504 of the Rehabilitation Act. Individuals seeking reasonable accommodations should contact Accessibility & Disability Services (843-349-2503 or [https://www.coastal.edu/disabilityservices/]).
 
 ### Required statements and other such legalese
 
@@ -54,15 +62,9 @@ and modeling.
 * Work with relations by way of Boolean matrices and digraphs.
 * Communicate mathematically with their peers.
 
-### Course materials
-
-You will be provided with a free web textbook and a series of videos. You are intended to use these yourself, and use the office hours to ask questions about what you have learned.
-
-The videos and the book are meant to compliment one another. The book is much more thorough, and the videos are meant to provide short demonstrations and examples. Some students may prefer to watch the videos before diving into the book's motivation and explanations; other students may prefer to read the text and then watch an example in action. Try both orders to see which works best for you, but *use both resources*.
-
 ### Grading
 
-MATH 174 employs **mastery-based grading**, which is designed to make both of our lives better. Each assessed problem in the Homework and the free-response part of the Weekly Exam categories may be re-assessed, so that you may learn from your failure.
+MATH 174 employs **mastery-based grading**, which is designed to make both of our lives better. Each assessed problem in the homework and the weekly exams may be reassessed, so that your failures are productive.
 
 With that in mind, the summer semester MATH 174 course will be graded in the following categories.
 
