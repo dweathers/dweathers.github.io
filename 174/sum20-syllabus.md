@@ -6,7 +6,7 @@
 |--|--|
 |**Instructor**|Douglas Weathers|
 |**e-mail**|`wweathers at coastal dot edu`|
-|Office hours|TBD MTWTh|
+|**Office hours**|TBD MTWTh|
 
 ### Introduction
 
@@ -123,3 +123,5 @@ ALICIA: I got 84 for my answer. What did you do?
 BOB: I did (7-1+3 choose 7), like the video said.
 ALICIA: Oh yeah... Since we're choosing 3 objects out of 7 with replacement, n=7 and r=3. So it's (7-1+3 choose 3), not choose 7.
 BOB: Oh, duh. Thanks.*
+
+### The terms of this syllabus are subject to change fairly and with ample notice as needed.
