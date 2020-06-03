@@ -5,8 +5,54 @@
 
 |--|--|
 |**Instructor**|Douglas Weathers|
-|**e-mail**|wweathers at coastal dot edu|
+|**e-mail**|`wweathers at coastal dot edu`|
 |Office hours|TBD MTWTh|
+
+### Introduction
+
+**Welcome to MATH 174!**
+
+This is a class about learning to communicate mathematically. The goal is that at the end of the course a student who once was nervous about approaching new and difficult mathematics will be emboldened.
+
+We will learn this boldness in the context of discrete mathematics, which is frustratingly defined as "the study of discrete structures." A discrete structure is something whose elements enjoy a clear separation from each other; consider that the numbers 1 and 2 are clearly distinct. As  a counterexample consider that there is not such a clear distinction between the numbers 1, 1.1, 1.01, 1.001, and so on. Examples of discrete structures include sets, families of statements with logical connectives, sequences, Boolean matrices, graphs, and partial orders. Oh, and you're also going to learn how to count *real good.*
+
+This course is a challenging one. Have faith in your own abilities, and reach out to me and your classmates when you need help!
+
+### What we can expect from each other
+
+**Communication:** You are encouraged to contact me via e-mail or Teams (direct message or class chat). I will respond to all correspondence within 24 hours if not sooner (correspondence sent Friday may receive a response Monday).
+
+I love talking to students! *That's why I am here.* Don't hesitate to reach out as soon as you have trouble with the material, or for any other reason.
+
+**Code of conduct:** In a typical summer course we would see each other every day and our course community would grow naturally. Because the ongoing COVID-19 pandemic makes in-person meetings dangerous, we will have to mindfully create our community online. To that end, you may find yourself speaking to your classmates online more often than you would expect to.
+
+This is an inclusive classroom where students of all races, ethnicities, genders, religions, sexual orientations, and abilities are encouraged to learn mathematics. You are to respect your fellow classmates at all times.
+
+Access to our community workspace is a privilege. Students who harass their classmates may lose that privilege, and if an offense is particularly egregious there will not be a warning.
+
+**Academic integrity:** Coastal Carolina University is an academic community that expects the highest standards of honesty, integrity and personal responsibility. Members of this community are accountable for their actions and are committed to creating an atmosphere of mutual respect and trust. For more, see https://www.coastal.edu/aic.
+
+**Accomodations:** Coastal Carolina University is committed to equitable access and inclusion of individuals with disabilities in accordance with the Americans with Disabilities Act and Section 504 of the Rehabilitation Act. Individuals seeking reasonable accommodations should contact Accessibility \& Disability Services (843-349-2503 or \texttt{https://www.coastal.edu/disabilityservices/}).
+
+### Required statements and other such legalese
+
+**Prerequisite:** MATH 130/130I with a C or better.
+
+**Course topics:** Set theory, logic, proofs, recursion, sequences, asymptotics, induction, combinatorics, probability, relations, digraphs, and Boolean algebra.
+
+**Course objectives:** Successful students in this course will learn particular mathematical
+facts and then apply them. This will be achieved through five themes: mathematical
+reasoning, combinatorial analysis, discrete structures, algorithmic thinking, and applications
+and modeling.
+
+**Student outcomes:** Students successfully completing MATH 174 will have the ability to:
+* Translate English statements to logic expressions, and simplify those expressions.
+* Use direct and inductive proof techniques to prove mathematical statements.
+* Work with the basic concepts of sets and set operations.
+* Use modular arithmetic and congruences.
+* Use basic counting principles to compute probabilities.
+* Work with relations by way of Boolean matrices and digraphs.
+* Communicate mathematically with their peers.
 
 ### Course materials
 
@@ -30,11 +76,17 @@ Problems in the homework and in the free response portions of the exams will be 
 * (I) A solution is *incomplete* if it is only partially completed or if the writing is completely unclear or illegible. The incomplete solution shows that the student does not yet understand the material, and that further learning is required.
 * (NR) A solution is *not revisable* if it was not attempted at all; or if the attempt is obviously not in good faith. A solution (or lack thereof) marked "not revisable" is -- you guessed it! -- not eligible to be revised, because the student may be sandbagging for a free one-week extension. You should make a good effort on every problem.
 
-**Weekly exams.** Every week there will be an exam consisting of two parts: (I) a timed multiple choice portion and (II) an open-note free-response portion. The multiple choice portion is designed to test whether you have retained enough basic information about the concepts; the time will be strict enough that you would rather not use your notes. The free-response portion will be more difficult, but you are allowed to use your notes, and some of these problems may be reassessed. **Though you may use your notes on the free-response portion, you are not allowed to collaborate with any other person. This includes posting the question to tutoring services. I will find out, and you will earn a 0.**
+Another feature of mastery-based grading is rewarding growth. You are not expected to know everything on the first day of class -- just by the last day! So, you will be able to revise much of your work in this class.
 
-**Final exam.** On the last day of class there will be a final exam. It will be a longer exam of the same type as the weekly exams, and again, **you will earn a 0 if you are caught trying to collaborate.**
+When each assignment's solutions are posted, you will have a good idea of whether you did well. At this point, you may choose up to two problems on that assignment to be reassessed. The homework may be revised as many times as necessary *within one week of the solutions being posted,* subject to my ability to respond and give meaningful feedback. (So for best results, e-mail early.) If you score better on the new problems, the better score will replace the old one.
 
-**Participation.** I have an introductory activity planned, as well as weekly activities. Participation in these will earn a score of Good, Adequate, or Lacking at the end of the semester. Students who make a good-faith effort to participate in all of the activities will earn a Good; students who only participate in some activities or participate half-heartedly will earn an Adequate; students who do not participate enough for an Adequate score will earn a Lacking. Your participation score is up to my discretion, but will be administered fairly.
+**Weekly exams.** There will be an exam on the Monday of the second, third, fourth, and fifth weeks. These exams will be taken in person over Teams in a two-hour block. Exam problems will be similar to homework problems.
+
+Each exam beginning with the second will give you a chance to revise questions from the previous exam. For example, the third exam will contain questions from the material covered since the second exam -- all of which must be attempted -- and questions from the material covered on the second exam. Keep track of how well you do on each exam question, and if necessary, you may choose questions from this group to revise. The final exam will contain questions that allow you to revise questions from the fourth exam.
+
+**Final exam.** On the last day of class there will be a final exam. It will be a longer exam of the same type as the weekly exams. The final exam may not be revised.
+
+**Participation.** I have an introductory activity planned, as well as weekly activities. Participation in these will earn a score of Good, Adequate, or Lacking at the end of the semester. Students who make a good-faith effort to participate in all of the activities will earn a Good; students who only participate in some activities or participate half-heartedly will earn an Adequate; students who do not participate enough for an Adequate score will earn a Lacking. Your participation score is up to my discretion, but you may expect it to be administered fairly.
 
 **Your final grade.** One goal of mastery-based grading is that you will always know what your grade is and what needs to be done in order to pass the course. Below are the minimum cutoffs for each grade.
 
@@ -49,14 +101,6 @@ Furthermore, all three requirements must be met for a grade; earning two out of 
 
 * Alicia works hard all semester and participates enthusiastically in every activity. After revising, 85% of her exam questions are at the E/M level, with 50% at the E level. Also, 96% of her homework is at the E/M level, with 80% at the E level. Therefore, Alicia will earn an A.
 * Bob starts off well but starts to slack off towards the end of the class. He doesn't revise as much as he should, and doesn't reach out to his instructor when he needs help. At the end of the semester he has good participation and 80% of his homework at the E/M level (62% E), but after the final only 60% of his exam problems are at the E/M level. Since he has met two of the three B conditions, Bob will only earn a C+.
-
-### Reassessment
-
-Another feature of mastery-based grading is rewarding growth. You are not expected to know everything on the first day of class -- just by the last day! So, you will be able to revise much of your work in this class.
-
-**Homework reassessment:** For each homework problem that does not earn a score of E, you may e-mail me *within a week of the homework being graded* to request a similar problem. The homework may be revised as many times as necessary within the week subject to my ability to respond and give meaningful feedback. (So for best results, e-mail early.) If you score better on the new problem, the better score will replace the old one.
-
-**Exam reassessment:** Each exam beginning with the second will give you a chance to revise questions from the previous exam. For example, the third exam will contain questions from the material covered since the second exam -- all of which must be attempted -- and questions from the material covered on the second exam. Keep track of how well you do on each exam question, and if necessary, you may choose questions from this group to revise. The final exam will contain questions that allow you to revise questions from the fourth exam. The final exam may not be revised. 
 
 ### "Attendance"
 
