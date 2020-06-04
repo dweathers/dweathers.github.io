@@ -2,6 +2,11 @@
 
 ## Notes to self about the book
 
+### Todo
+
+Dark mode
+Screen reading
+
 ### Every video description
 
 Meant to be watched before or after reading Chapter X of the open source textbook Elementary Discrete Mathematics (https://dweathers.github.io/174/book.html).
