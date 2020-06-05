@@ -5,8 +5,8 @@
 
 ### Contact information
 
-|--|--|
 |**Instructor**|Douglas Weathers|
+|--|--|
 |**e-mail**|`wweathers at coastal dot edu`|
 |**Office hours**|TBD MTWTh|
 
@@ -16,7 +16,9 @@
 
 This is a class about learning to communicate mathematically. The goal is that at the end of the course a student who once was nervous about approaching new and difficult mathematics will be emboldened.
 
-We will learn this boldness in the context of discrete mathematics, which is frustratingly defined as "the study of discrete structures." A discrete structure is something whose elements enjoy a clear separation from each other; consider that the numbers 1 and 2 are clearly distinct. As  a counterexample consider that there is not such a clear distinction between the numbers 1, 1.1, 1.01, 1.001, and so on. Examples of discrete structures include sets, families of statements with logical connectives, sequences, Boolean matrices, graphs, and partial orders. Oh, and you're also going to learn how to count *real good.*
+We will learn this boldness in the context of discrete mathematics, which is frustratingly defined as "the study of discrete structures." A discrete structure is something whose elements enjoy a clear separation from each other. Consider the following question: What is the number following 1? In the set of natural numbers, the answer is simply 2. In the set of real numbers, there is no answer: you will find another real number between 1 and 1.1, between 1 and 1.01, and so on. In fact, it will not be possible for you to even list all the numbers between 1 and 1.01. Discrete structures are more like the former example, the natural numbers.
+
+Examples of discrete structures include sets, families of statements with logical connectives, sequences, Boolean matrices, graphs, and partial orders. Oh, and you're also going to learn how to count *real good.*
 
 This course is a challenging one. Work hard, have faith in your own abilities, and reach out to me and your classmates when you need help!
 
@@ -64,27 +66,27 @@ and modeling.
 
 ### Grading
 
-MATH 174 employs **mastery-based grading**, which is designed to make both of our lives better. Each assessed problem in the homework and the weekly exams may be reassessed, so that your failures are productive.
+MATH 174 employs **fluency-based grading**, which is designed to make both of our lives better. Each assessed problem in the homework and the weekly exams may be reassessed, so that your failures are productive.
 
-With that in mind, the summer semester MATH 174 course will be graded in the following categories.
+The problems you do will be graded on the E/M/P/I scale.
 
-**Homework.** Each week you will be assigned a selection of problems from the textbook. These problems will be due the day before that week's exam so that I may post solutions. For that reason, **no late homework will be accepted.** I will choose a few of these problems to assess.
-
-Problems in the homework and in the free response portions of the exams will be graded on the E/M/P/I scale.
-
-* (E) A solution is *excellent* if it contains no mathematical errors and demonstrates complete understanding. An excellent solution is written clearly, concisely, and in logical order, and contains very few spelling or grammatical errors.
+* (E) A solution is *excellent* if it contains no mathematical errors and demonstrates complete understanding. An excellent solution is written clearly, concisely, and in logical order, and contains very few spelling or grammatical errors. In short: the student is fluent in the concept being assessed.
 * (M) A solution *meets expectations* if it contains few mathematical errors, none of which are significant. It is clear that the student understands the material being assessed. There may be issues with spelling, grammar, or logical order, but they are few and minor.
 * (P) A solution is *progressing* if it demonstrates partial understanding, but contains significant mathematical errors. The writing may be unclear, unnecessarily verbose, or out of order, and may contain significant spelling or grammatical errors.
 * (I) A solution is *incomplete* if it is only partially completed or if the writing is completely unclear or illegible. The incomplete solution shows that the student does not yet understand the material, and that further learning is required.
 * (NR) A solution is *not revisable* if it was not attempted at all; or if the attempt is obviously not in good faith. A solution (or lack thereof) marked "not revisable" is -- you guessed it! -- not eligible to be reassessed, because the student may be sandbagging for a free one-week extension. You should make a good effort on every problem.
 
-Another feature of mastery-based grading is rewarding growth. You are not expected to know everything on the first day of class -- just by the last day! So, you will be able to revise much of your work in this class.
+Another feature of fluency-based grading is rewarding growth. You are not expected to know everything on the first day of class -- just by the last day! So, you will be able to revise much of your work in this class.
+
+The summer semester MATH 174 course will be graded in the following categories.
+
+**Homework.** Each week you will be assigned a selection of problems from the textbook. These problems will be due the day before that week's exam so that I may post solutions. For that reason, **no late homework will be accepted.** Start early and get help often. I will choose a representative few of these problems to assess (i.e., grade).
 
 When each assignment's solutions are posted, you will have a good idea of whether you did well. At this point, you may choose up to two problems on that assignment to be reassessed. You will receive similar problems. You may ask for feedback as many times as necessary *within one week of the solutions being posted,* subject to my ability to respond and give meaningful feedback. (So for best results, e-mail early.) If you score better on the new problems after the week has ended, the better score will replace the old one.
 
-When you submit a homework problem for reassessment, you will also need to write a few sentences describing where your original solutiuon failed and how your new solution addresses that. New solutions without commentary will not be accepted!
+When you submit a homework problem for reassessment, you will also need to write a few sentences describing where your original solution failed and how your new solution addresses that. New solutions without commentary will not be accepted!
 
-**Weekly exams.** There will be an exam on the Monday of the second, third, fourth, and fifth weeks. These exams will be taken in person over Teams in a two-hour block. Exam problems will be similar to homework problems.
+**Weekly exams.** There will be an exam on the Monday of the second, third, fourth, and fifth weeks. These exams will be taken over a two-hour block. Exam problems will be similar to homework problems.
 
 Each exam beginning with the second will give you a chance to revise questions from the previous exam. For example, the third exam will contain questions from the material covered since the second exam -- all of which must be attempted -- and questions from the material covered on the second exam. Keep track of how well you do on each exam question, and if necessary, you may choose questions from this group to revise. The final exam will contain questions that allow you to revise questions from the fourth exam.
 
@@ -94,7 +96,7 @@ Due to time constraints on the exam, verbal commentary is not necessary on reass
 
 **Participation.** I have an introductory activity planned, as well as weekly activities. These activities are not stressful; they are just another way to think about the material. Participation in these will earn a score of Good, Adequate, or Lacking at the end of the semester. Students who make a good-faith effort to participate in all of the activities will earn a Good; students who only participate in some activities or participate half-heartedly will earn an Adequate; students who do not participate enough for an Adequate score will earn a Lacking. Your participation score is up to my discretion, but you may expect it to be administered fairly.
 
-**Your final grade.** One goal of mastery-based grading is that you will always know what your grade is and what needs to be done in order to pass the course. Below are the minimum cutoffs for each grade.
+**Your final grade.** One goal of fluency-based grading is that you will always know what your grade is and what needs to be done in order to pass the course. Below are the minimum cutoffs for each grade.
 
 |Grade|Exams (weekly and final)|Homework|Participation|
 |--|--|--|--|
