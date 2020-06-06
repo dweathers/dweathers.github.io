@@ -1,4 +1,4 @@
-# Introduction to discrete mathematics
+# MATH 174: Introduction to discrete mathematics
 ## Syllabus
 
 ### Coastal Carolina University / Section 01 / Summer I 2020
