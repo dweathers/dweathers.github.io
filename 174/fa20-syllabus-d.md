@@ -1,7 +1,7 @@
 # MATH 174: Introduction to discrete mathematics
 ## Syllabus
 
-### Coastal Carolina University / Section 01 / Fall 2020
+### Coastal Carolina University / Section D1 / Fall 2020
 
 ### Contact information
 
@@ -24,9 +24,7 @@ This course is a challenging one. Work hard, have faith in your own abilities, a
 
 ### Course delivery
 
-Prior to September 8, all courses at Coastal Carolina University will be streamed online. *After September 8, MATH 174-01 will continue to be streamed online.*
-
-This is a hybrid course, so most of the work will be done online anyway. The Monday class meeting will be held live via Zoom. The link will be available on Moodle. Students who still wish to use their assigned classroom Mondays at 1pm and who chose the Class modality on Webadvisor may do so. If you are accessing the Zoom meeting from a University building, you are expected to wear a mask and practice social distancing (per University guidelines and good common sense).
+This is a distance learning course, so all of the material is ready for the student to learn at their own pace. An appropriate pace is suggested so that students can keep up with weekly homework and exam due dates. Students in distance classes must be self-motivated to do the necessary work without a regular class meeting. Remember I am always available for help!
 
 ### Course materials
 
@@ -48,7 +46,7 @@ This is an inclusive classroom where students of all races, ethnicities, genders
 
 Access to our community workspace is a privilege. Students who harass their classmates may lose that privilege, and if an offense is particularly egregious there will not be a warning.
 
-I won't be an accomplice to bad public health practices. If I can tell you are accessing the Zoom meeting from a public space and you are not wearing a mask, you will be made to leave the meeting.
+I won't be an accomplice to bad public health practices. If I can tell you are accessing a meeting from a public space and you are not wearing a mask, you will be made to leave the meeting.
 
 **Academic integrity:** Coastal Carolina University is an academic community that expects the highest standards of honesty, integrity and personal responsibility. Members of this community are accountable for their actions and are committed to creating an atmosphere of mutual respect and trust. For more, see [https://www.coastal.edu/aic](https://www.coastal.edu/aic).
 
@@ -119,9 +117,5 @@ Furthermore, all three requirements must be met for a grade; earning two out of 
 
 * Alicia works hard all semester and participates enthusiastically in every activity. After revising, 85% of her exam questions are at the E/M level, with 50% at the E level. Also, 96% of her homework is at the E/M level, with 80% at the E level. Therefore, Alicia will earn an A.
 * Bob starts off well but starts to slack off towards the end of the class. He doesn't revise as much as he should, and doesn't reach out to his instructor when he needs help. At the end of the semester he has good participation and 80% of his homework at the E/M level (62% E), but after the final only 60% of his exam problems are at the E/M level. Since he has met two of the three B conditions, Bob will only earn a C+.
-
-### "Attendance"
-
-You are expected to attend the Monday Zoom meeting. I understand that not every student will be on the Coastal Carolina campus this semester; some of you will be in different time zones, while some of you may be working your jobs. Let me know if this is your situation. Meanwhile, the meeting will be recorded and posted to an unlisted YouTube playlist.
 
 ### The terms of this syllabus are subject to change fairly and with ample notice as needed.
