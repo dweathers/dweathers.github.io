@@ -24,7 +24,9 @@ Lectures will be delivered synchronously via Zoom. The link will be available on
 
 ### Course materials
 
-We will use WebAssign. [Use this link to purchase access at a discounted rate.](http://services.cengagebrain.com/course/site.html?id=3981474) You also may want a calculator to do some basic computations; however, the calculator should not be used for the actual calculus work (taking derivatives and integrals), and you will be required to show the correct work for credit. No calculator of level TI-89 or higher (or calculator that can do symbolic manipulation) is allowed for any exams or quizzes.  If you have questions about your calculator please let me know.  Cell phones and tablets are not an acceptable substitute for a calculator and will NOT be allowed.
+We will use WebAssign. Check Moodle for a link to purchase access at a discounted rate as well as instructions for logging on and the course code.
+
+You also may want a calculator to do some basic computations; however, the calculator should not be used for the actual calculus work (taking derivatives and integrals), and you will be required to show the correct work for credit. No calculator of level TI-89 or higher (or calculator that can do symbolic manipulation) is allowed for any exams or quizzes.  If you have questions about your calculator please let me know.  Cell phones and tablets are not an acceptable substitute for a calculator and will NOT be allowed.
 
 ### What we can expect from each other
 
